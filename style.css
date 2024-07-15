@@ -1,20 +1,24 @@
-div{
-    text-align: center;
-}
-
-body{
-    background-color: aliceblue;
-}
-
 a{
-    background-color: #ffaa01;
     text-decoration: none;
-    padding: 10px;
     color: white;
     font-weight: bold;
-    border-radius: 5px;
 }
 
-a:hover{
-    transform: scale(1.2);
+.btn-navbar{
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+}
+
+.mosaico, .mapa, .patrocinio{
+    margin-top: 40px;
+}
+
+.pecaMosaico{
+    padding: 0px;
+}
+
+.mapa iframe{
+    width: 100%;
 }
