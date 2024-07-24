@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'xilosa';
+    src: url('xilosa.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('Gotham-Ultra.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('Gotham-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+.gtBook{
+    font-family: Gotham-Book;
+    font-size: 1.5rem;
+}
+
+.gtUltra{
+    font-family: Gotham-Ultra;
+    font-size: 3rem;
+}
+
+
+body{
+    background-image: url(BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -7,12 +39,18 @@ a{
 .btn-navbar{
     border-radius: 5px;
     text-align: center;
-    width: 80%;
-    font-size: 20px;
+    width: 70%;
+    font-size: 42px;
+    font-family: xilosa;
 }
 
-.mosaico, .mapa, .patrocinio{
+.mosaico{
     margin-top: 40px;
+}
+
+.patrocinio{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .pecaMosaico{
@@ -20,5 +58,9 @@ a{
 }
 
 .mapa iframe{
+    width: 100%;
+}
+
+.barraFooter img{
     width: 100%;
 }
